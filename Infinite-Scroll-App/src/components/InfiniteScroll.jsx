@@ -17,6 +17,7 @@ const InfiniteScroll = () => {
     useEffect(() => {
         getData();
     }, [page]);
+
     const handleInfiniteScroll = async () => {
         console.log('Inner Height', window.innerHeight)
         console.log('Scroll top', document.documentElement.scrollTop)
